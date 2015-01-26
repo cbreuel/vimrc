@@ -11,6 +11,7 @@ autocmd FileType python nnoremap <buffer> <F5> :exec '!python' shellescape(@%, 1
 
 " JSON Syntax Highlighting
 autocmd BufNewFile,BufRead *.json set ft=javascript
+set nofoldenable    " disable folding
 
 " Autocomplete menu colors
 highlight Pmenu ctermfg=Black ctermbg=White
